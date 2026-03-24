@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:auster.digisac.co)",
+      "Bash(curl:*)",
+      "Bash(npx create-next-app@latest app --typescript --tailwind --app --no-src-dir --no-eslint --import-alias \"@/*\" --yes)",
+      "Bash(npm install:*)",
+      "Bash(mkdir -p \"C:\\\\Users\\\\Auster\\\\Documents\\\\Projects\\\\projetoBackupMsg\\\\app\\\\app\\\\api\\\\contacts\\\\[id]\\\\messages\")",
+      "Bash(mkdir -p \"C:\\\\Users\\\\Auster\\\\Documents\\\\Projects\\\\projetoBackupMsg\\\\app\\\\app\\\\conversations\\\\[contactId]\")",
+      "Bash(npm run:*)",
+      "Bash(pip install:*)",
+      "Bash(python extractor.py)",
+      "Bash(sqlite3 backup.db \"SELECT last_message_at FROM contacts WHERE last_message_at IS NOT NULL LIMIT 5;\")",
+      "Bash(python:*)"
+    ]
+  }
+}
